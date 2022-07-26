@@ -7,6 +7,19 @@ interface MenuItem {
 @Component({
   selector: "app-menu",
   templateUrl: "./menu.component.html",
-  styles: [],
+  styles: [
+    `
+      .list-group-item:hover {
+        cursor: default;
+      }
+    `,
+  ],
 })
-export class MenuComponent {}
+export class MenuComponent {
+  menu: MenuItem[] = [
+    { route: "charts/bars", text: "Bars" },
+    { route: "charts/double", text: "Double Bars" },
+    { route: "charts/doughnut", text: "Doughnut" },
+    { route: "charts/doughnut-http", text: "Http Doughnut" },
+  ];
+}
