@@ -27,7 +27,7 @@ export class BarsComponent {
     datasets: [
       {
         data: [65, 59, 80, 81, 56, 55, 40],
-        label: "Series E",
+        label: "Series A",
         backgroundColor: "#F5D905",
         hoverBackgroundColor: "#F5B80A",
       },
@@ -39,19 +39,19 @@ export class BarsComponent {
       },
       {
         data: [65, 59, 80, 81, 56, 55, 40],
-        label: "Series A",
+        label: "Series C",
         backgroundColor: "#E60759",
         hoverBackgroundColor: "#E6092F",
       },
       {
         data: [28, 48, 40, 19, 86, 27, 90],
-        label: "Series C",
+        label: "Series D",
         backgroundColor: "#4E05FC",
         hoverBackgroundColor: "#A503FC",
       },
       {
         data: [65, 59, 80, 81, 56, 55, 40],
-        label: "Series D",
+        label: "Series E",
         backgroundColor: "#05B2F2",
         hoverBackgroundColor: "#0226F2",
       },
