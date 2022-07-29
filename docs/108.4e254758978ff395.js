@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchartsApp=self.webpackChunkchartsApp||[]).push([[108],{5108:(h,s,t)=>{t.r(s),t.d(s,{ChartsModule:()=>l});var o=t(9808),r=t(8297),u=t(7480),n=t(1223);let l=(()=>{class a{}return a.\u0275fac=function(M){return new(M||a)},a.\u0275mod=n.oAB({type:a}),a.\u0275inj=n.cJS({imports:[[o.ez,u.b,r.vQ]]}),a})()}}]);
