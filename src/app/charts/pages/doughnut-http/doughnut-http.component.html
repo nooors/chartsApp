@@ -1,1 +1,20 @@
-<p>doughnut-http works!</p>
+<h2>Social Media chart</h2>
+<hr />
+
+<div
+  class="alert alert-info"
+  *ngIf="barChartDataDought.datasets[0].data.length === 0; else divChart"
+>
+  Cargando data ...
+</div>
+<div class="row">
+  <div class="col">
+    <ng-template #divChart>
+      <app-chart-bar
+        [barChartData]="barChartDataDought"
+        [barChartType]="barChartTypeDought"
+      ></app-chart-bar>
+      <span class="float-end text-primary">Info in billions of users</span>
+    </ng-template>
+  </div>
+</div>
